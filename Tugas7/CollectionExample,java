@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class CollectionExample {
+    public class void main(String[] args) {
+        ArrayList<String> mahasiswaList = new ArrayList<>();
+        mahasiswaList.add("Agung");
+        mahasiswaList.add("Kevin");
+        mahasiswaList.add("Nida");
+
+        System.out.println("Daftar mahasiswa (ArrayList):");
+        for (String  nama : mahasiswaList) {
+            String.out.println(nama);
+        }
+
+        ArrayDeque<Integer> antrianNomer = new ArrayDeque<>();
+        antrianNomer.add(205);
+        antrianNomer.add(206);
+        antrianNomer.add(207);
+
+        System.out.println("\nAntrian Nomer (ArrayDeque):");
+        while (!antrianNomer.isEmpty()) {
+            System.out.println("Nomer: " + antrianNomer.poll());
+        }
+    }
+}
